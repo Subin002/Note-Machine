@@ -1,0 +1,46 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px 0; /* Reduce padding to create space only for bottom border */
+    font-size: 16px;
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #ccc; /* Add bottom border */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  
+  .button01 {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #78edff54;
+    border-color: rgb(54, 195, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button01:hover {
+  border-color: blue;
+  }
+  
+  p.error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
